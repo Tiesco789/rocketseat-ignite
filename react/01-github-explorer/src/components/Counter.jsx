@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+// Imutabilidade = Copiar os valores que já existe e sobre escrever os valores existentes junto com um valor novo
+
 export function Counter() {
   const [counter, setCounter] = useState(0);
   
