@@ -11,6 +11,7 @@ export function TransactionTable() {
             <th>Categoria</th>
             <th>Data</th>
           </tr>
+        </thead>
           
           <tbody>
             <tr>
@@ -28,7 +29,6 @@ export function TransactionTable() {
             </tr>
           </tbody>
           
-        </thead>
       </table>
     </Container>
   )
